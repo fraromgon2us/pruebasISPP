@@ -10,3 +10,10 @@ before_install:
   - chmod +x mvnw
 script:
   - mvn test
+deploy:
+  provider: heroku
+  app: pruebasispp2021
+  strategy: git
+  api_key: $HEROKU_API_KEY
+  on:
+    branch: develop
