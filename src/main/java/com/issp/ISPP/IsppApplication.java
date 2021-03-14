@@ -1,0 +1,13 @@
+package com.issp.ISPP;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class IsppApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(IsppApplication.class, args);
+	}
+
+}
